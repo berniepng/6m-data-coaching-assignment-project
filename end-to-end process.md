@@ -10,6 +10,4 @@
 Bernie's dashboard
 - used claude Sonnet 4.5 (free version) as a coding guide
 - used shuf to get 50000 rows for sampling purposes
- '''
- (head -n 1 input.csv && tail -n +2 input.csv | shuf -n 50000) > sample.csv
- '''
+ ''' (head -n 1 input.csv && tail -n +2 input.csv | shuf -n 50000) > sample.csv '''
